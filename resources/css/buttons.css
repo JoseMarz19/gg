@@ -1,0 +1,147 @@
+.btn{
+    @apply font-bold py-2 px-4 rounded;
+}
+
+.btn-block{
+    @apply bg-blue-500 hover:bg-blue-700 text-white text-lg font-bold;
+}
+.btn-primary{
+    @apply bg-blue-500 text-white text-center w-32 mt-4 mb-2 py-1 px-4;
+}
+.btn-blue:hover{
+    @apply bg-blue-700;
+}
+.btn-danger{
+    @apply bg-blue-500 text-white;
+}
+.btn-blue:hover{
+    @apply bg-red-700;
+}
+
+.btn-primary_verde{
+    @apply bg-green-500 text-white text-center;
+}
+
+.btn-primary_azul{
+    @apply bg-blue-500 text-white text-center;
+}
+.btn-danger_rojo{
+    @apply bg-red-500 text-white text-center;
+}
+
+.paypal1 {color: #003087; font-size: 24px; font-family: Arial, Helvetica, sans-serif; font-weight: bold; font-style: italic;}
+.paypal2 {color: #009CDE; font-size: 24px; font-family: Arial, Helvetica, sans-serif; font-weight: bold; font-style: italic;}
+.paypal3 {color: #000000; font-size: 15px; font-family: Arial, Helvetica, sans-serif; font-weight: bold; }
+.paypal4 {color: #fafafa; font-size: 15px; font-family: Arial, Helvetica, sans-serif; }
+.myButton0a {width: 250px; background-color:#FFC439; border-radius:10px; display:inline-block; cursor:pointer; padding:8px; text-align:center; text-decoration:none; margin-bottom: 3px; }
+.myButton0a:hover {background-color:#fcba1f; }
+.myButton0a:active {position:relative; top:1px; }
+.myButton1a {width: 250px; background-color:#000000; border-radius:10px; display:inline-block; cursor:pointer; padding:7px; text-align:center; text-decoration:none; }
+.myButton1a:hover {background-color:#2b2b2b; }
+.myButton1a:active {position:relative; top:1px; }
+
+
+
+
+.button-compra {
+    display: inline-block;
+    padding: 10px 15px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  
+  .button-compra:hover {background-color: #3e8e41}
+  
+  .button-compra:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+
+.btn-submit {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    border: 2px solid #3dd126;
+    border-radius: 5px;
+    background-color: #3dd126;
+    color: #000000;
+    font-size: 18px;
+    font-weight: bold;
+    text-shadow: 0 -1px 0 rgba(0,0,0,.5);
+    box-shadow: 0 2px 0 rgba(255,255,255,.5) inset,
+    0 2px 4px rgba(0,0,0,.2);
+    transition: background-color .3s, border-color .3s, transform .3s;
+    cursor: pointer;
+    }
+    
+    .btn-submit:hover,
+    .btn-submit:focus {
+    background-color: #2ea84b;
+    border-color: #38bd57;
+    transform: translateY(-2px);
+    }
+
+    .btn-glow-button {
+        background-color: #ff9d00;
+        color: #fff;
+        font-size: 1.2rem;
+        padding: 0.5rem 1rem;
+        border-radius: 0.5rem;
+        box-shadow: 0 0 10px #ffcc00;
+        transition: box-shadow 0.5s ease-in-out;
+      }
+      
+      .btn-glow-button:hover {
+        box-shadow: 0 0 10px #ffcc00;
+      }
+
+
+
+
+      .btn-submit-azul {
+        display: inline-block;
+        padding: 10px 20px;
+        margin: 10px;
+        border: 2px solid #3dd126;
+        border-radius: 5px;
+        background-color: #3dd126;
+        color: #000000;
+        font-size: 18px;
+        font-weight: bold;
+        text-shadow: 0 -1px 0 rgba(0,0,0,.5);
+        box-shadow: 0 2px 0 rgba(255,255,255,.5) inset,
+        0 2px 4px rgba(0,0,0,.2);
+        transition: background-color .3s, border-color .3s, transform .3s;
+        cursor: pointer;
+        }
+        
+        .btn-submit:hover,
+        .btn-submit:focus {
+        background-color: #2ea84b;
+        border-color: #38bd57;
+        transform: translateY(-2px);
+        }
+    
+        .btn-glow-button {
+            background-color: #ff9d00;
+            color: #fff;
+            font-size: 1.2rem;
+            padding: 0.5rem 1rem;
+            border-radius: 0.5rem;
+            box-shadow: 0 0 10px #ffcc00;
+            transition: box-shadow 0.5s ease-in-out;
+          }
+          
+          .btn-glow-button:hover {
+            box-shadow: 0 0 10px #ffcc00;
+          }
